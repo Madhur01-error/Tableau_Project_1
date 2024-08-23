@@ -1,51 +1,35 @@
-Project Title: Real Estate Data Analysis Dashboard
+# Real Estate Analysis Dashboard
 
-Overview
-This project involves the creation of an interactive dashboard using Tableau to analyze and visualize key metrics related to real estate data. The dashboard provides insights into the pricing trends across different zip codes, the average price per bedroom, the distribution of bedroom listings, and revenue trends over time.
+This Tableau dashboard provides a comprehensive analysis of real estate data, focusing on average prices, distribution of listings, and revenue trends over time. The visualizations help to identify patterns and insights into the real estate market based on various criteria such as the number of bedrooms, zip codes, and yearly revenue.
 
-Dashboard Description
-The dashboard consists of the following components:
+## Dashboard Overview
 
-Average Price Per Bedroom:
+The dashboard contains the following key visualizations:
 
-A bar chart showing the average price of properties based on the number of bedrooms.
-The chart helps in identifying pricing trends for properties with varying bedroom counts.
-Distinct Count of Bedroom Listings:
+1. **Average Price Per Bedroom**: This bar chart displays the average price of properties based on the number of bedrooms. It helps to understand the price variation as the number of bedrooms increases.
 
-A summary table that displays the count of property listings, categorized by the number of bedrooms.
-It allows for understanding the distribution of available properties based on bedroom count.
-Price Per Zip Code:
+2. **Distinct Count of Bedroom Listings**: A table showing the count of listings based on the number of bedrooms. This provides insights into the availability of properties with different numbers of bedrooms in the market.
 
-A map view combined with a bar chart, highlighting the average property prices across different zip codes.
-This visualization is useful for identifying high-value areas and comparing prices geographically.
-Revenue for Year:
+3. **Price Per Zip Code**: A geographical map and bar chart visualization that shows the average price of properties in different zip codes. This helps to analyze the pricing trends across various regions.
 
-A line chart illustrating the revenue trends over a calendar year.
-The chart provides an understanding of how revenue fluctuates throughout the year, potentially due to seasonal factors.
-Technical Details
-Tools Used: Tableau
-Data Sources: The data used for creating the dashboard includes property listing data with fields like price, bedroom count, zip code, and dates.
-Mapbox Integration: The zip code map leverages Mapbox for geographic visualization, offering a clear and interactive view of the data.
-Installation & Setup
-To view and interact with the dashboard, follow these steps:
+4. **Revenue For Year**: A line chart that represents the revenue trend over the year. It provides an overview of how revenue fluctuates week by week throughout the year.
 
-Download and install Tableau.
-Clone this repository using:
-bash
-Copy code
-git clone <repository-url>
-Open Tableau and load the Final Dashboard.twbx file from the cloned repository.
-Interact with the dashboard to explore different visualizations and insights.
-Usage
-This dashboard can be used by real estate analysts, investors, and decision-makers to:
+## How to Use
 
-Compare property prices across different areas.
-Analyze how the number of bedrooms affects property prices.
-Track revenue trends over time to make informed decisions.
-Contributions
-Contributions to enhance this project are welcome. Please follow the standard procedure for contributing by:
+1. **Filter by Number of Bedrooms**: Use the bar chart and table to analyze how the number of bedrooms affects the average price and availability of listings.
 
-Forking the repository.
-Creating a feature branch.
-Making the necessary changes.
-Submitting a pull request for review.
+2. **Analyze Price Distribution by Zip Code**: Use the map and bar chart to explore the average prices across different zip codes. This is useful for understanding regional pricing trends and market dynamics.
+
+3. **Track Revenue Trends Over Time**: Use the line chart to monitor how revenue changes over time, identifying peak periods and trends within the year.
+
+## Requirements
+
+- Tableau Reader or Tableau Desktop to view and interact with the dashboard.
+
+## Getting Started
+
+To use the dashboard:
+
+1. Download the Tableau file (`.twbx` format) from the repository.
+2. Open the file using Tableau Reader or Tableau Desktop.
+3. Interact with the visualizations by selecting different filters or hovering over data points for more details.
