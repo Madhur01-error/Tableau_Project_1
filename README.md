@@ -21,15 +21,3 @@ The dashboard contains the following key visualizations:
 2. **Analyze Price Distribution by Zip Code**: Use the map and bar chart to explore the average prices across different zip codes. This is useful for understanding regional pricing trends and market dynamics.
 
 3. **Track Revenue Trends Over Time**: Use the line chart to monitor how revenue changes over time, identifying peak periods and trends within the year.
-
-## Requirements
-
-- Tableau Reader or Tableau Desktop to view and interact with the dashboard.
-
-## Getting Started
-
-To use the dashboard:
-
-1. Download the Tableau file (`.twbx` format) from the repository.
-2. Open the file using Tableau Reader or Tableau Desktop.
-3. Interact with the visualizations by selecting different filters or hovering over data points for more details.
